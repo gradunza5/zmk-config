@@ -29,7 +29,7 @@
 //                              | FUN/ESC | LSHIFT | SYM/BSPC |   | SYM/ENT | SPACE  | MOUSE |
                         bindings = <
    &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMICOLON    &kp BSLH
-   &mo NAV &mt LGUI A &mt LALT R &mt LCTL S &mt LSHIFT T &kp G   &kp M &mt RSHIFT N  &mt RCTL E &mt RALT I   &kp RGUI O    &kp SQT
+   &mo NAV &mt LGUI A &mt LALT R &mt LCTL S &mt LSHIFT T &kp G   &kp M &mt RSHIFT N  &mt RCTL E &mt RALT I   &mt RGUI O    &kp SQT
    &caps_word &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &tog GM1
                   &lt FUN ESC &kp LSHIFT &lt NUM BSPC   &lt SYM RET &kp SPC &mo MOZ
                         >;
