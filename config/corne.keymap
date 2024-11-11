@@ -57,10 +57,10 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
             display-name = "sym";
             bindings = <
-   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
-                                    &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+   &kp TAB    &kp MINUS       &kp GRAVE       &kp LT       &kp GT       &kp DOLLAR         &kp AMPS &kp LBKT   &kp RBKT &kp PRCT    &kp COLN &kp DEL
+   &trans &hm LGUI PLUS &hm LALT QMARK &hm LCTL BANG &hm LSHIFT HASH &kp UNDER   &kp TILDE &hm RSHIFT LPAR  &hm RCTL RPAR &hm RALT COLN   &hm RGUI COLN    &trans
+   &trans &kp BSLH &kp PIPE &kp STAR &kp AMPS &kp CRRT &kp EQL   &kp LBRC   &kp RBRC &kp DOT    &kp SLASH &trans
+                                    &trans &trans &trans &trans &trans &trans
                 >;
             };
 
