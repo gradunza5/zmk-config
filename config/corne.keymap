@@ -32,6 +32,15 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+
+         bhm: balanced_homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;    // <---[[moderate duration]]
+            quick-tap-ms = <0>;
+            flavor = "balanced";
+            bindings = <&kp>, <&kp>;
+        };   
     };
 
     keymap {
@@ -46,7 +55,7 @@
         display-name = "main";
         bindings = <
    &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMICOLON    &kp BSLH
-   &mo NAV &hm LGUI A &hm LALT R &hm LCTL S &hm LSHIFT T &kp G   &kp M &hm RSHIFT N  &hm RCTL E &hm RALT I   &hm RGUI O    &kp SQT
+   &mo NAV &bhm LGUI A &bhm LALT R &bhm LCTL S &bhm LSHIFT T &kp G   &kp M &bhm RSHIFT N  &bhm RCTL E &bhm RALT I   &bhm RGUI O    &kp SQT
    &caps_word &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &mo GM1
                   &lt FUN ESC &kp LSHIFT &lt NUM BSPC   &lt SYM RET &kp SPC &mo MOZ
             >;
@@ -61,7 +70,7 @@
             display-name = "sym";
             bindings = <
    &kp TAB    &kp MINUS       &kp GRAVE       &kp LT       &kp GT       &kp DOLLAR         &kp AMPS &kp LBKT   &kp RBKT &kp PRCT    &kp COLN &kp DEL
-   &trans     &hm LGUI PLUS   &hm LALT QMARK  &hm LCTL BANG &hm LSHIFT HASH &kp UNDER   &kp TILDE &hm RSHIFT LPAR  &hm RCTL RPAR &hm RALT COLN   &hm RGUI COLN    &trans
+   &trans     &bhm LGUI PLUS   &bhm LALT QMARK  &bhm LCTL BANG &bhm LSHIFT HASH &kp UNDER   &kp TILDE &bhm RSHIFT LPAR  &bhm RCTL RPAR &bhm RALT COLN   &bhm RGUI COLN    &trans
    &trans &kp BSLH &kp PIPE &kp STAR &kp AMPS &kp CRRT &kp EQL   &kp LBRC   &kp RBRC &kp DOT    &kp SLASH &trans
                                     &trans &trans &trans &trans &trans &trans
                 >;
@@ -91,7 +100,7 @@
             display-name = "num";
             bindings = <
     &trans &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp F20 &kp KP_SLASH   &kp KP_PLUS &kp N7 &kp N8 &kp N9 &kp KP_PLUS &kp KP_MINUS
-    &trans &hm LGUI C_STOP &hm LALT C_PREV &hm LCTL C_NEXT &hm LSHIFT C_PP &kp KP_MULTIPLY   &kp KP_MINUS &kp N4 &kp N5 &kp N6 &kp COLN &kp KP_SLASH
+    &trans &bhm LGUI C_STOP &bhm LALT C_PREV &bhm LCTL C_NEXT &bhm LSHIFT C_PP &kp KP_MULTIPLY   &kp KP_MINUS &kp N4 &kp N5 &kp N6 &kp COLN &kp KP_SLASH
     &trans &trans &trans &trans &trans &kp KP_DOT   &kp KP_EQUAL &kp N1 &kp N2 &kp N3 &kp KP_DOT &trans
                          &trans &trans &trans   &kp BSPC &kp 0 &trans 
             >;
