@@ -100,7 +100,7 @@
     &trans &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp F20 &kp KP_SLASH   &kp KP_PLUS &kp N7 &kp N8 &kp N9 &kp KP_PLUS &kp KP_MINUS
     &trans &bhm LGUI C_STOP &bhm LALT C_PREV &bhm LCTL C_NEXT &bhm LSHIFT C_PP &kp KP_MULTIPLY   &kp KP_MINUS &kp N4 &kp N5 &kp N6 &kp COLN &kp KP_SLASH
     &trans &trans &trans &trans &trans &kp KP_DOT   &kp KP_EQUAL &kp N1 &kp N2 &kp N3 &kp KP_DOT &trans
-                         &trans &trans &trans   &kp BSPC &kp 0 &trans 
+                         &trans &trans &trans   &kp BSPC &kp N0 &trans 
             >;
         };
                 
