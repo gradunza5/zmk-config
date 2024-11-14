@@ -69,7 +69,7 @@
             bindings = <
    &kp TAB    &kp MINUS       &kp GRAVE       &kp LT       &kp GT       &kp DOLLAR         &kp AMPS &kp LBKT   &kp RBKT &kp PRCT    &kp COLN &kp DEL
    &trans     &bhm LGUI PLUS   &bhm LALT QMARK  &bhm LCTL BANG &bhm LSHIFT HASH &kp UNDER   &kp TILDE &bhm RSHIFT LPAR  &bhm RCTL RPAR &bhm RALT COLN   &bhm RGUI COLN    &trans
-   &trans &kp BSLH &kp PIPE &kp STAR &kp AMPS &kp CRRT &kp EQL   &kp LBRC   &kp RBRC &kp DOT    &kp SLASH &trans
+   &trans &kp BSLH &kp PIPE &kp STAR &kp AT &kp CRRT &kp EQL   &kp LBRC   &kp RBRC &kp DOT    &kp SLASH &trans
                                     &trans &trans &trans &trans &trans &trans
                 >;
             };
