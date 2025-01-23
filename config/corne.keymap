@@ -63,7 +63,7 @@
    &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMICOLON    &kp BSLH
    &mo NAV &bhm LGUI A &bhm LALT R &bhm LCTL S &bhm LSHIFT T &kp G   &kp M &bhm RSHIFT N  &bhm RCTL E &bhm RALT I   &bhm RGUI O    &kp SQT
    &caps_word &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &mo GM1
-                  &lt FUN ESC &kp LSHIFT &blt NUM BSPC   &blt SYM RET &kp SPC &mo MOZ
+                  &lt FUN ESC &kp LSHIFT &lt NUM BSPC   &lt SYM RET &kp SPC &mo MOZ
             >;
         };
 
