@@ -60,8 +60,8 @@
         display-name = "main";
         bindings = <
    &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMICOLON    &kp BSLH
-   &mo NAV &hm LGUI A &hm LALT R &hm LCTL S &hm LSHIFT T &kp G   &kp M &hm RSHIFT N  &hm RCTL E &hm RALT I   &hm RGUI O    &kp SQT
-   &caps_word &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &mo GM1
+   &mo NAV &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E &kp I   &kp O    &kp SQT
+   &caps_word &hm LGUI Z &hm LALT X &hm LCTL C &hm LSHIFT D &kp V   &kp K &hm RSHIFT H  &hm RCTL COMMA &hm RALT DOT &hm RGUI FSLH &mo GM1
                   &lt FUN ESC &kp LSHIFT &lt NUM BSPC   &lt SYM RET &kp SPC &mo MOZ
             >;
         };
