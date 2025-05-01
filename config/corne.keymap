@@ -53,14 +53,14 @@
 
         default_layer {
 // -----------------------------------------------------------------------------------------
-//                       |  TAB |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  ;  |  \   |
-//  | NAV |  LGUI/A  |  LALT/R  |  LCTL/S  |  LSHIFT/T  |  G  |   |  M  |  RHSIFT/N   |  RCTL/E  | RALT/I  |  RGUI/O  |  '   |
+//                       |  ESC |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  ;  |  \   |
+//  | NAV / TAB |  LGUI/A  |  LALT/R  |  LCTL/S  |  LSHIFT/T  |  G  |   |  M  |  RHSIFT/N   |  RCTL/E  | RALT/I  |  RGUI/O  |  '   |
 //                  | CAPS WORD |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |  /  | GM1  |
 //                              | FUN/ESC | LSHIFT | SYM/BSPC |   | SYM/ENT | SPACE  | MOUSE |
         display-name = "main";
         bindings = <
-   &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMICOLON    &kp BSLH
-   &mo NAV &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E &kp I   &kp O    &kp SQT
+   &kp ESC &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMICOLON    &kp BSLH
+   &hm NAV TAB &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E &kp I   &kp O    &kp SQT
    &caps_word &hm LGUI Z &hm LALT X &hm LCTL C &hm LSHIFT D &kp V   &kp K &hm RSHIFT H  &hm RCTL COMMA &hm RALT DOT &hm RGUI FSLH &mo GM1
                   &lt FUN ESC &kp LSHIFT &lt NUM BSPC   &lt SYM RET &kp SPC &mo MOZ
             >;
