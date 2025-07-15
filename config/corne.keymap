@@ -90,9 +90,9 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
             display-name = "nav";
             bindings = <
-    &trans &trans   &trans   &trans   &trans      &trans      &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-    &trans &kp LGUI &kp LALT &kp LCTL &kp LSHIFT  &trans      &kp H &kp J &kp K  &kp L &trans &trans
-    &trans &trans &trans &trans &trans &kp CRRT   &kp DLLR    &kp HOME &kp END &kp DLLR &trans &trans
+    &trans &kp N1   &kp N2   &kp N3   &kp N4      &kp N5      &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
+    &trans &kp LGUI &kp LALT &kp LCTL &kp LSHIFT  &trans      &kp H    &kp J    &kp K  &kp L     &trans &trans
+    &trans &trans   &trans   &trans   &trans      &kp CRRT    &kp DLLR &kp HOME &kp END &kp DLLR &trans &trans
                                 &trans &trans     &trans      &trans   &trans  &trans 
                 >;
             };
