@@ -25,7 +25,7 @@ layers:
   - I
   - O
   - {t: '''', h: func}
-  - '&caps_word'
+  - '['
   - {t: Z, h: LGUI}
   - {t: X, h: LALT}
   - {t: C, h: LCTL}
@@ -36,7 +36,7 @@ layers:
   - {t: ',', h: RCTL}
   - {t: ., h: RALT}
   - {t: /, h: RGUI}
-  - {t: ▽, type: trans}
+  - ']'
   - {t: ESC, h: func}
   - LSHIFT
   - {t: BSPC, h: num}
