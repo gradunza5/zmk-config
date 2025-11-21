@@ -40,8 +40,8 @@ layers:
   - {t: ESC, h: func}
   - LSHIFT
   - {t: BSPC, h: num}
-  - SPC
   - {t: RET, h: sym}
+  - SPC
   - maus
   sym:
   - TAB
@@ -83,8 +83,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   nav:
   - {t: ▽, type: trans}
