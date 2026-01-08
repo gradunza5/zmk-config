@@ -170,8 +170,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - BSPC
-  - {t: ▽, type: trans}
   - '0'
+  - SPC
   func:
   - {t: BT, h: '4'}
   - {t: BT, h: '3'}
