@@ -164,7 +164,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - KP DOT
+  - .
   - ','
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
