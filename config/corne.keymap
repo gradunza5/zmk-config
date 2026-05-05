@@ -60,11 +60,10 @@
 //                              | FUN/ESC | LSHIFT | SYM/BSPC |   | SYM/ENT | SPACE  | MOUSE |
         display-name = "main";
         bindings = <
-   &kp TAB &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMICOLON    &kp BSLH
-   &lt NAV ESC &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E &kp I   &kp O    &lt FUN SQT
-   &kp LBKT &hm LGUI Z &hm LALT X &hm LCTL C &hm LSHIFT D &kp V   &kp K &hm RSHIFT H  &hm RCTL COMMA &hm RALT DOT &hm RGUI FSLH &kp RBKT //&tog QWRT
-                  /* &lt FUN ESC &kp LSHIFT &lt NUM BSPC      &kp SPC &lt SYM RET &mo MOZ */
-                  &lt FUN ESC &kp LSHIFT &lt NUM BSPC   &lt SYM RET &kp SPC &mo MOZ
+   &kp TAB     &kp Q      &kp W      &kp F      &kp P        &kp B      &kp J &kp L         &kp U          &kp Y        &kp SEMICOLON    &kp BSLH
+   &lt NAV ESC &kp A      &kp R      &kp S      &kp T        &kp G      &kp M &kp N         &kp E          &kp I        &kp O            &lt FUN SQT
+   &kp LBKT    &hm LGUI Z &hm LALT X &hm LCTL C &hm LSHIFT D &kp V      &kp K &hm RSHIFT H  &hm RCTL COMMA &hm RALT DOT &hm RGUI FSLH    &kp RBKT //&tog QWRT
+                                  &lt FUN ESC &kp LSHIFT &lt NUM BSPC   &lt SYM RET &kp SPC &mo MOZ
             >;
         };
 
@@ -76,10 +75,10 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
             display-name = "sym";
             bindings = <
-   &kp TAB    &kp GRAVE       &kp UNDER       &kp LT       &kp GT       &kp DOLLAR         &kp AMPS &kp LBKT   &kp RBKT &kp PRCT    &kp COLN &kp DEL
-   &trans     &bhm LGUI PLUS   &bhm LALT MINUS  &bhm LCTL HASH &kp BANG &kp QMARK   &kp TILDE &kp LPAR  &bhm RCTL RPAR &bhm RALT COLN   &bhm RGUI COLN    &trans
-   &trans &kp BSLH &kp PIPE &kp STAR &kp AT &kp CRRT &kp EQL   &kp LBRC   &kp RBRC &kp DOT    &kp SLASH &trans
-                                    &trans &trans &trans &trans &trans &trans
+   &kp TAB    &kp GRAVE        &kp UNDER        &kp LT         &kp GT       &kp DOLLAR         &kp AMPS  &kp LBKT   &kp RBKT       &kp PRCT         &kp COLN          &kp DEL
+   &trans     &bhm LGUI PLUS   &bhm LALT MINUS  &bhm LCTL HASH &kp BANG     &kp QMARK          &kp TILDE &kp LPAR   &bhm RCTL RPAR &bhm RALT COLN   &bhm RGUI COLN    &trans
+   &trans     &kp BSLH         &kp PIPE         &kp STAR       &kp AT       &kp CRRT           &kp EQL   &kp LBRC   &kp RBRC       &kp DOT          &kp SLASH         &trans
+                                                                        &trans &trans &trans &trans &trans &trans
                 >;
             };
 
@@ -106,11 +105,10 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
             display-name = "num";
             bindings = <
-    &trans &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp F20 &kp KP_SLASH   &kp KP_PLUS &kp N7 &kp N8 &kp N9 &kp KP_PLUS &kp KP_MINUS
-    &trans &bhm LGUI C_STOP &bhm LALT C_PREV &bhm LCTL C_NEXT &bhm LSHIFT C_PP &kp KP_MULTIPLY   &kp KP_MINUS &kp N4 &kp N5 &kp N6 &kp COLN &kp FSLH
-    &trans &trans &trans &trans &trans &kp KP_DOT   &kp KP_EQUAL &kp N1 &kp N2 &kp N3 &kp KP_DOT &kp
-    COMMA
-                         &trans &trans &trans   &kp BSPC &kp N0 &kp SPC
+    &trans &kp C_MUTE       &kp C_VOL_DN     &kp C_VOL_UP     &kp F20          &kp KP_SLASH      &kp KP_PLUS  &kp N7 &kp N8 &kp N9 &kp KP_PLUS &kp KP_MINUS
+    &trans &bhm LGUI C_STOP &bhm LALT C_PREV &bhm LCTL C_NEXT &bhm LSHIFT C_PP &kp KP_MULTIPLY   &kp KP_MINUS &kp N4 &kp N5 &kp N6 &kp COLN    &kp FSLH
+    &trans &trans           &trans           &trans           &trans           &kp KP_DOT        &kp KP_EQUAL &kp N1 &kp N2 &kp N3 &kp KP_DOT  &kp COMMA
+                                                                         &trans &trans &trans   &kp BSPC &kp N0 &kp SPC
             >;
         };
                 
@@ -167,9 +165,9 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
             display-name = "maus";
             bindings = <
-    &trans &trans &trans &mmv MOVE_UP &msc SCRL_UP &trans   &trans &trans &trans &trans &trans &trans
+    &trans &trans &trans         &mmv MOVE_UP   &msc SCRL_UP    &trans   &trans &trans    &trans    &trans    &trans &trans
     &trans &trans &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans   &trans &mkp LCLK &mkp RCLK &mkp MCLK &trans &trans
-    &trans &trans &trans &trans &msc SCRL_DOWN &trans   &trans &trans &trans &trans &trans &trans
+    &trans &trans &trans         &trans         &msc SCRL_DOWN  &trans   &trans &trans    &trans    &trans    &trans &trans
                          &trans &trans &trans   &trans &trans &trans 
             >;
         };
