@@ -48,6 +48,9 @@
             bindings = <&kp>, <&kp>;
         };   
 
+        // timeless homerow mods
+        // https://v0-3-branch.zmk.dev/docs/keymaps/behaviors/hold-tap?examples=home_row_mods
+        // https://github.com/urob/zmk-config#timeless-homerow-mods
         hml: home_row_mod_left {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
