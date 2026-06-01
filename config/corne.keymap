@@ -57,6 +57,7 @@
         // timeless homerow mods
         // https://v0-3-branch.zmk.dev/docs/keymaps/behaviors/hold-tap?examples=home_row_mods
         // https://github.com/urob/zmk-config#timeless-homerow-mods
+        // home row mod to use on the left hand
         hml: home_row_mod_left {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -69,6 +70,7 @@
             hold-trigger-on-release;
         };
 
+        // home row mod to use on the right hand
         hmr: home_row_mod_right {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -93,9 +95,9 @@
 //                              | FUN/ESC | LSHIFT | SYM/BSPC |   | SYM/ENT | SPACE  | MOUSE |
         display-name = "main";
         bindings = <
-   &kp TAB     &kp Q      &kp W      &kp F      &kp P        &kp B      &kp J &kp L         &kp U          &kp Y        &kp SEMICOLON    &kp BSLH
-   &lt NAV ESC &kp A      &kp R      &kp S      &kp T        &kp G      &kp M &kp N         &kp E          &kp I        &kp O            &lt FUN SQT
-   &kp LBKT    &hm LGUI Z &hm LALT X &hm LCTL C &hm LSHIFT D &kp V      &kp K &hm RSHIFT H  &hm RCTL COMMA &hm RALT DOT &hm RGUI FSLH    &kp RBKT //&tog QWRT
+   &kp TAB     &kp Q          &kp W        &kp F        &kp P                &kp B      &kp J &kp L                 &kp U                &kp Y              &kp SEMICOLON          &kp BSLH
+   &lt NAV ESC &hml LGUI A    &hml LALT R  &hml LCTL S  &hml LSHIFT T        &kp G      &kp M &hmr RSHIFT N         &hmr RCTL E          &hmr RALT I        &hmr RGUI O            &lt FUN SQT
+   &kp LBKT    &hm LGUI Z     &hm LALT X   &hm LCTL C   &hm LSHIFT D         &kp V      &kp K &hm RSHIFT H          &hm RCTL COMMA       &hm RALT DOT       &hm RGUI FSLH          &kp RBKT //&tog QWRT
                                   &lt FUN ESC &kp LSHIFT &lt NUM BSPC   &lt SYM RET &kp SPC &mo MOZ
             >;
         };
