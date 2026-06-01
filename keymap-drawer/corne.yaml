@@ -26,16 +26,16 @@ layers:
   - {t: O, h: RGUI}
   - {t: '''', h: func}
   - '['
-  - {t: Z, h: LGUI}
-  - {t: X, h: LALT}
-  - {t: C, h: LCTL}
-  - {t: D, h: LSHIFT}
+  - Z
+  - X
+  - C
+  - D
   - V
   - K
-  - {t: H, h: RSHIFT}
-  - {t: ',', h: RCTL}
-  - {t: ., h: RALT}
-  - {t: /, h: RGUI}
+  - H
+  - ','
+  - .
+  - /
   - ']'
   - {t: ESC, h: func}
   - LSHIFT
