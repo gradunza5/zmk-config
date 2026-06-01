@@ -14,16 +14,16 @@ layers:
   - ;
   - \
   - {t: ESC, h: nav}
-  - A
-  - R
-  - S
-  - T
+  - {t: A, h: LGUI}
+  - {t: R, h: LALT}
+  - {t: S, h: LCTL}
+  - {t: T, h: LSHIFT}
   - G
   - M
-  - N
-  - E
-  - I
-  - O
+  - {t: N, h: RSHIFT}
+  - {t: E, h: RCTL}
+  - {t: I, h: RALT}
+  - {t: O, h: RGUI}
   - {t: '''', h: func}
   - '['
   - {t: Z, h: LGUI}
